@@ -13,9 +13,12 @@ namespace comando
     {
         static async Task Main(string[] args)
         {
-            Env.Load("C:\\Users\\HP\\Desktop\\c -sharp\\My_comando_progect\\.env");
-            string apyKey = Environment.GetEnvironmentVariable("GEMINI_API_KEY");
-            Console.WriteLine(apyKey);
+            //Env.Load("C:\\Users\\HP\\Desktop\\c -sharp\\My_comando_progect\\.env");
+            //string apyKey = Environment.GetEnvironmentVariable("GEMINI_API_KEY");
+            //Console.WriteLine(apyKey);
+            Stone a = new Stone("aaa",1);
+            Console.WriteLine(a.color);
+
             //Game game = new Game();
             //game.factory.Factory_Commando("HJ", "JHJ");
             //game.factory.Factory_AirComando("HJ", "JHJ");
